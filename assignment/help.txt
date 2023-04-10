@@ -1,0 +1,10 @@
+byte b1 = 2;
+
+        Byte b = new Byte(b1);
+ 
+        System.out.println("Byte instance to byte: " + Byte.valueOf(b));
+        System.out.println("Byte instance to short: " + b.shortValue());
+        System.out.println("Byte instance to int: " + b.intValue());
+        System.out.println("Byte instance to long: " + b.longValue());
+        System.out.println("Byte instance to float: " + b.floatValue());
+        System.out.println("Byte instance to double: " + b.doubleValue());
